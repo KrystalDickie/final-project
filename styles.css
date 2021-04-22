@@ -276,8 +276,33 @@ h2 {
     margin-left: 10px;
 }
 
+main .contact .grid-item table thead tr th,tbody tr td {
+        border: 1px solid black;
+        padding: 10px;
+}
+
+main .contact .grid-item table {
+    width: 100%;
+}
+
+main .contact .grid-item table thead tr th {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
 
 
+
+footer {
+    background-color: #222;
+    color: #c78c06;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    padding-top: 10px;
+}
 
 /* DESKTOP */
 

@@ -126,6 +126,11 @@ nav .container form button {
     background-color: #ffe6ac ;
 }
 
+.intro img {
+    padding: 0;
+    margin: 0;
+}
+
 .intro .container p {
     color: white;
 }
@@ -139,6 +144,7 @@ nav .container form button {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    overflow: hidden;
 }
 
 
@@ -328,9 +334,41 @@ footer p {
     nav .container {
         width: 1200px;
     }
-    
-    header nav {
-        padding: 0;
+   
+
+    header .logo {
+        background-color: #222;
+        float : left;
     }
     
+    header nav ul li {
+        display: inline;
+        float: left;
+        padding-top: 30px;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    .intro {
+        padding: 0;
+        margin: 0;
+        position: static;
+        background-color: #222;
+    }
+
+    .logo img {
+        width: 85%;
+        height: 85%;
+    }
+
+    nav .container form input {
+        line-height: 30px;
+        width: 25%;
+    }
 }

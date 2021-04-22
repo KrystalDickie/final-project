@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ========MY STYLES======== */
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 51px;
+    line-height: 98px;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/*=====Header======*/
+
+
+header nav {
+    background-color: #222;
+    padding: 14px;
+}
+
+header nav ul li {
+    font-size: 18px;
+}
+
+header nav ul li.current a {
+    background: #c78c06;
+    color: #222;
+}
+
+header nav form input {
+    width: 90%;
+}
+
+header .intro img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+nav .container form button {
+    height: 40px;
+}
+
+.intro {
+    position: relative;
+    background-color: #ffe6ac ;
+}
+
+.intro .container p {
+    color: white;
+}
+
+.intro .container {
+    background-color: rgb(0,0,0, 0.6) ;
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.intro .container button {
+    background-color: #c78c06;
+    padding: 30px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+
+
+header nav ul li a {
+    display: block;
+    color: #c78c06;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+header .logo {
+    background: #c78c06;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+nav .container {
+    width: auto;
+}
+
+header form input {
+    line-height: 36px;
+}
+
+
+
+
+/* MAIN */
+main .about {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+main .about .container img {
+    width: 100%;
+}
+
+main .about .container p {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.services .grid-container .grid-item img {
+    width: 100%;
+}
+
+.services .grid-container .grid-item {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.services .grid-container .grid-item p,h2 {
+    padding-left: 10px;
+}
+
+.services .grid-container .grid-item button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 760px) {
+    h1 {
+        font-size: 81px;
+        line-height: 112px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 54px;
+        line-height: 1;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    nav .container {
+        width: 1200px;
+    }
+    
+    header nav {
+        padding: 0;
+    }
+    
+}
